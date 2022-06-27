@@ -1,12 +1,7 @@
 package ru.netology.repositories;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import ru.netology.products.Product;
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class ProductRepo {
     private Product[] items = new Product[0];
 

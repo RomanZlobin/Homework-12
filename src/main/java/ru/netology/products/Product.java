@@ -1,12 +1,5 @@
 package ru.netology.products;
 
-
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@NoArgsConstructor
-
 public class Product {
     private int id;
     private String name;
@@ -17,5 +10,16 @@ public class Product {
         this.name = name;
         this.cost = cost;
     }
+    public int getId() {
+        return id;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+
+
 }
 

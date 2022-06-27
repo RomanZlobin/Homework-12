@@ -1,12 +1,14 @@
 package ru.netology.managers;
 
-import lombok.NoArgsConstructor;
 import ru.netology.products.Product;
 import ru.netology.repositories.ProductRepo;
 
-@NoArgsConstructor
+
 public class ProductManager {
     private ProductRepo repo;
+
+    public ProductManager() {
+    }
 
     public ProductManager(ProductRepo repo) {
         this.repo = repo;
